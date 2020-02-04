@@ -95,28 +95,28 @@ $('#add').on('click', function () {
   var status = 'Demo';
 
   if (outputBAC > 0.35) {
-    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 mililit máu. Bạn sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng khi điều khiển xe trên đường, ngoài ra còn bị tước quyền sử dụng Giấy phép lái xe trong 02 tháng.';
+    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 milit máu, nếu tiếp tục điều khiển phương tiện giao thông trên đường sẽ bị phạt tiền từ 6.000.000 đồng đến 8.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng.';
     
   } else if (outputBAC > 0.26) {
-    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 mililit máu. Bạn sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng khi điều khiển xe trên đường, ngoài ra còn bị tước quyền sử dụng Giấy phép lái xe trong 02 tháng.';
+    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 milit máu, nếu tiếp tục điều khiển phương tiện giao thông trên đường sẽ bị phạt tiền từ 6.000.000 đồng đến 8.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng.';
 
   } else if (outputBAC > 0.19) {
-    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 mililit máu. Bạn sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng khi điều khiển xe trên đường, ngoài ra còn bị tước quyền sử dụng Giấy phép lái xe trong 02 tháng.';
+    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 milit máu, nếu tiếp tục điều khiển phương tiện giao thông trên đường sẽ bị phạt tiền từ 6.000.000 đồng đến 8.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng.';
 
   } else if (outputBAC > 0.079) {
-    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 mililit máu. Bạn sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng khi điều khiển xe trên đường, ngoài ra còn bị tước quyền sử dụng Giấy phép lái xe trong 02 tháng.';
+    status = 'Nồng độ cồn của bạn đã vượt quá 80 miligam/100 milit máu, nếu tiếp tục điều khiển phương tiện giao thông trên đường sẽ bị phạt tiền từ 6.000.000 đồng đến 8.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng.';
 
   } else if (outputBAC > 0.07) {
-    status = 'Nồng độ cồn của bạn đã vượt quá 50 miligam đến 80 miligam/100 mililit máu. Bạn sẽ bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng khi điều khiển xe trên đường, ngoài ra còn bị tước quyền sử dụng Giấy phép lái xe trong 01 tháng.';
+    status = 'Nồng độ cồn của bạn đã vượt quá 50 miligam đến 80 miligam/100 milit máu, nếu tiếp tục điều khiển phương tiện giao thông trên đường sẽ bị phạt tiền từ 4.000.000 đồng đến 5.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng.';
 
   } else if (outputBAC > 0.049) {
-    status = 'Nồng độ cồn của bạn đã vượt quá 50 miligam đến 80 miligam/100 mililit máu. Bạn sẽ bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng khi điều khiển xe trên đường, ngoài ra còn bị tước quyền sử dụng Giấy phép lái xe tr0ng 01 tháng.';
+    status = 'Nồng độ cồn của bạn đã vượt quá 50 miligam đến 80 miligam/100 milit máu, nếu tiếp tục điều khiển phương tiện giao thông trên đường sẽ bị phạt tiền từ 4.000.000 đồng đến 5.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng.';
 
   } else if (outputBAC > 0.035) {
-    status = 'Nồng độ cồn trong máu của bạn đang trong mức cho phép. Tuy nhiên, để đảm bảo an toàn, người điều khiển xe gắn máy nên tham gia giao thông trong tình trạng tỉnh táo, tuyệt đối không nên uống rượu bia rồi lái xe.';
+    status = 'Điều khiển phương tiện giao thông trên đường mà trong máu có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 milit máu, sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng.';
 
   } else if (outputBAC > 0.005) {
-    status = 'Nồng độ cồn trong máu của bạn đang trong mức cho phép. Tuy nhiên, để đảm bảo an toàn, người điều khiển xe gắn máy nên tham gia giao thông trong tình trạng tỉnh táo, tuyệt đối không nên uống rượu bia rồi lái xe.';
+    status = 'Điều khiển phương tiện giao thông trên đường mà trong máu có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 milit máu, sẽ bị phạt tiền từ 2.000.000 đồng đến 3.000.000, và bị tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng.';
 
   }
 
